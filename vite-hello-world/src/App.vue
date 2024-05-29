@@ -1,18 +1,19 @@
 <script>
 import headercomponets from './components/headercomponent.vue';
+
 export default {
+  name:'myapp',
   data() {
-  name:'myapp',}
-  return {
-
-
-  }
-  components:{
+    return {}
+  },
+  components: {
     headercomponets,
   }
-};
+}
 </script>
+
 <template>
-<headercomponets \>
+  <headercomponets />
 </template>
+
 <style></style>
